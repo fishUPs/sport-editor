@@ -19,7 +19,7 @@
 | ------------------------ | ------------------- | ------------------- |
 | XIAOMI_AMAZFIT_USERNAME  | 用户名              | 159000000           |
 | XIAOMI_AMAZFIT_PASSWORD  | 密码                | xxxxxx              |
-| XIAOMI_AMAZFIT_USER_ID   | 用户 ID (可选)      | 123456              |
+| XIAOMI_AMAZFIT_USER_ID   | 用户 ID (可选)      | 123456(点开头像里面） |
 | XIAOMI_AMAZFIT_APP_TOKEN | APP Token (可选)    | xxxxxxxx            |
 | STED_SIZE_RANGE          | 运动步数范围 (可选) | 5000-15000 (默认值) |
 
@@ -33,7 +33,8 @@
 - 将环境变量参数填到 Setting -> Secrets (如果使用 Token+ID 方式可不填用户名及密码)
 - 开启 actions (默认`actions`处于禁止状态)
 - 执行 sport-editor-task workflow
-
+- 默认为北京时间中午12点运行
+- 截至2021/7/23日测试可用
 ## 命令行运行
 
 ```
